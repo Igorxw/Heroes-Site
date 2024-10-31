@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Heroes - Raquetes de Beach Tênis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #000000;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .product {
+            background-color: #1e1e1e;
+            color: #fff;
+            border-radius: 8px;
+            width: 300px;
+            margin: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .product h3 {
+            margin: 15px 0 10px;
+        }
+        .price {
+            color: #f39c12;
+            font-weight: bold;
+        }
+        .discount {
+            text-decoration: line-through;
+            color: #ccc;
+            margin-right: 10px;
+        }
+        .tag {
+            background-color: #2ecc71;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 3px;
+            position: absolute;
+            margin-top: -20px;
+            margin-left: -20px;
+        }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            background-color: #1e1e1e;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+        .navbar img {
+            height: 40px;
+        }
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar ul li {
+            margin: 0 15px;
+        }
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .navbar .icons {
+            display: flex;
+            align-items: center;
+        }
+        .navbar .icons span {
+            margin-right: 20px;
+            font-size: 14px;
+        }
+        .navbar .icons img {
+            height: 24px;
+            margin-left: 10px;
+        }
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+        .hero {
+            background: linear-gradient(to right, #8b0000, #008b8b);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            color: white;
+            text-align: center;
+        }
+        .hero img {
+            max-width: 100%;
+            height: auto;
+        }
+        .overlay {
+            position: absolute;
+            bottom: 50px;
+            text-align: center;
+            width: 100%;
+        }
+        .overlay h1 {
+            font-size: 4em;
+            margin: 0;
+        }
+        .overlay p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        .overlay a {
+            background-color: transparent;
+            border: 2px solid white;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .overlay a:hover {
+            background-color: white;
+            color: #008b8b;
+        }
+        .arrow {
+            position: absolute;
+            top: 50%;
+            font-size: 2em;
+            color: white;
+            cursor: pointer;
+            user-select: none;
+        }
+        .arrow.left {
+            left: 30px;
+        }
+        .arrow.right {
+            right: 30px;
+        }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            background-color: #1e1e1e;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 30px;
+            height: 80px;
+        }
+        .navbar img {
+            height: 40px;
+        }
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar ul li {
+            margin: 0 15px;
+        }
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .navbar .icons {
+            display: flex;
+            align-items: center;
+        }
+        .navbar .icons span {
+            margin-right: 20px;
+            font-size: 16px;
+        }
+        .navbar .icons img {
+            height: 24px;
+            margin-left: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+    <div class="navbar">
+        <img src="https://heroesbrandsport.com.br/wp-content/uploads/2020/08/logobanner_h-01.png" >
+        <ul>
+            <li><a href="#">HEROE'S</a></li>
+            <li><a href="#">COMPRAR</a></li>
+            <li><a href="#">ATLETAS</a></li>
+            <li><a href="#">AGÊNCIA</a></li>
+            <li><a href="#">GARANTIA</a></li>
+            <li><a href="#">CONTATE-NOS</a></li>
+        </ul>
+        <div class="icons">
+            <span>R$10000.00</span>
+        </div>
+    </div>
+    
+
+<div class="hero">
+    <div class="arrow left">&#8592;</div>
+    <img src="https://heroesbrandsport.com.br/wp-content/uploads/2024/04/padel-slider-3.png" >
+    <div class="arrow right">&#8594;</div>
+    <div class="overlay">
+        <h1>HEROE'S BRAND SPORT</h1>
+        <p>Selecionamos os nossos melhores equipamentos esportivos e roupas técnicas para PADEL e BEACH TENNIS.</p>
+        <br>
+        <a href="#">ACESSAR</a>
+    </div>
+</div>
+
+<div class="container">
+    <div class="product">
+        <span class="tag">Oferta</span>
+        <img src="https://heroesbrandsport.com.br/wp-content/uploads/2024/06/800x1020_0002_rebel-25_fronte-jpg.webp">
+        <h3>Raquete de Beach Tennis REBEL 2024</h3>
+        <p>Raquetes de Beach Tennis</p>
+        <p class="price">R$3,899.00</p>
+    </div>
+    <div class="product">
+        <img src="https://heroesbrandsport.com.br/wp-content/uploads/2024/06/800x1020_0005_chow_fronte-jpg.webp" >
+        <h3>Raquete de Beach Tennis SHOW 2024</h3>
+        <p>Raquetes de Beach Tennis</p>
+        <p class="price">R$3,799.00</p>
+    </div>
+    <div class="product">
+        <img src="https://heroesbrandsport.com.br/wp-content/uploads/2024/06/800x1020_0007_allan-fronte-jpg.webp">
+        <h3>Raquete de Beach Tennis CEU 2024</h3>
+        <p>Raquetes de Beach Tennis</p>
+        <p class="price">R$3,299.00</p>
+    </div>
+    <div class="product">
+        <span class="tag">Oferta</span>
+        <img src="https://heroesbrandsport.com.br/wp-content/uploads/2024/03/800x1020__0002_revenge-24_fronte.jpg" >
+        <h3>Raquete Beach Tennis REVENGE 2024</h3>
+        <p>Raquetes de Beach Tennis</p>
+        <p><span class="discount">R$3,199.00</span><span class="price">R$2,399.00</span></p>
+    </div>
+    </div>
+
+    <div class="container">
+        <div class="product">
+            <span class="tag">Oferta</span>
+            <img src="https://heroesbrandsport.com.br/wp-content/uploads/2024/03/800x1020__0016_miolnir_fronte.jpg" >
+            <h3>Raquete de Beach Tennis MJOLNIR 2024</h3>
+            <p>Raquetes de Beach Tennis</p>
+            <p class="price">R$2,399.00</p>
+        </div>
+        <div class="product">
+            <img src="https://heroesbrandsport.com.br/wp-content/uploads/2024/03/800x1020__0002_chance_fronte_h2.jpg">
+            <h3>Raquete de Beach Tennis CHANCE 2024</h3>
+            <p>Raquetes de Beach Tennis</p>
+            <p class="price">R$3,799.00</p>
+        </div>
+        <div class="product">
+            <img src="https://heroesbrandsport.com.br/wp-content/uploads/2024/03/800x1020__0033_beast-24_fronte.jpg" >
+            <h3>Raquete de Padel BEAST 2024</h3>
+            <p>Raquetes de Padel</p>
+            <p class="price">R$3,299.00</p>
+        </div>
+        <div class="product">
+            <span class="tag">Oferta</span>
+            <img src="https://heroesbrandsport.com.br/wp-content/uploads/2024/05/800x1020_0001_felpa_sweatshirt_sand-jpg.webp" >
+            <h3>Moletom Unisex Active SAND</h3>
+            <p>Molettom</p>
+            <p><span class="discount">R$899.00</span><span class="price">R$799.00</span></p>
+        </div>
+        </div>
+
+        <div class="container">
+            <div class="product">
+                <span class="tag">Oferta</span>
+                <img src="https://heroesbrandsport.com.br/wp-content/uploads/2024/03/800x1020__0006_game-tshirt_white-oliveria.jpg">
+                <h3>Camiseta Esportiva Masculina SKY</h3>
+                <p>Camisa</p>
+                <p class="price">R$449.00</p>
+            </div>
+            <div class="product">
+                <img src="https://heroesbrandsport.com.br/wp-content/uploads/2024/05/800x1020_rebel_fronte.jpg">
+                <h3>Camiseta Esportiva Masculina REBEL</h3>
+                <p>Camisa</p>
+                <p class="price">R$449.00</p>
+            </div>
+            <div class="product">
+                <img src="https://heroesbrandsport.com.br/wp-content/uploads/2024/03/nuovi_800x1020_0000_1Y7A9580.jpg">
+                <h3>Raqueteira THUNDER BLACK</h3>
+                <p>Raqueteira</p>
+                <p class="price">R$1,199.00</p>
+            </div>
+            <div class="product">
+                <span class="tag">Oferta</span>
+                <img src="https://heroesbrandsport.com.br/wp-content/uploads/2024/05/800x1020_0000_felpa_sweatshirt_ink-jpg.webp">
+                <h3>Moletom Unisex Active INK</h3>
+                <p>Molettom</p>
+                <p><span class="discount">R$899.00</span><span class="price">R$799.00</span></p>
+            </div>
+            </div>
+    
+
+</body>
+</html>
